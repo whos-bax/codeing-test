@@ -5,16 +5,26 @@ let input = require("fs")
   .trim()
   .split("\n");
 
-const n = Number(input[0]);
-const scores = input[1].split(" ");
-const newScores = [];
-const max = Math.max(...scores);
-for (const score of scores) {
-  newScores.push((score / max) * 100);
-}
+const string = input;
+let count = 0;
+let isGroup = true;
 
-let sum = 0;
-for (const newScore of newScores) {
-  sum += newScore;
+for (let i = 1; i <= input[0]; i++) {
+  let arr = [];
+  for (const char of input[i]) {
+    if (arr.length < 2) {
+      arr.push(char);
+      isGroup = true;
+    } else if (arr.includes(char) && arr[arr.length - 1] !== char) {
+      isGroup = false;
+      break;
+    } else {
+      arr.push(char);
+      isGroup = true;
+    }
+  }
+  if (isGroup) {
+    count++;
+  }
 }
-console.log(sum / n);
+console.log(count);
