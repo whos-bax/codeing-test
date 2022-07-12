@@ -21,4 +21,4 @@ Node.js 다운 사이트 : https://nodejs.org/
 2) 한 줄에 하나씩 값이 들어올 때
 => .split('\n');
 
-참고 : https://velog.io/@eundada064/%EB%B0%B1%EC%A4%80-JavaScript-VSCode-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85
+* 참고 : https://velog.io/@eundada064/%EB%B0%B1%EC%A4%80-JavaScript-VSCode-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85
