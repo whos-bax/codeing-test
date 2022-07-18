@@ -1,7 +1,7 @@
 // 브론즈 2
 let input = require("fs").readFileSync("/dev/stdin").toString().trim();
 
-const strAsc = Array(8)
+const strAsc = Array(8) 
   .fill()
   .map((a, b) => b + 1)
   .join(" ");
