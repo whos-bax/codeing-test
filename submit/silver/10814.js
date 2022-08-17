@@ -5,3 +5,6 @@ const input = require("fs")
   .trim()
   .split("\n");
 
+const n = input.shift();
+input.sort((a, b) => a.split(" ")[0] - b.split(" ")[0]);
+console.log(input.join("\n"));
