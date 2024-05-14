@@ -1,3 +1,4 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/120894
 const example = require('./example/120894');
 
 function solution (numbers) {
