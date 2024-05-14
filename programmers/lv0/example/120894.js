@@ -1,10 +1,11 @@
 module.exports = example = {
-    len: 2,
     numbers: [
         'onetwothreefourfivesixseveneightnine',
-        'onefourzerosixseven'
+        'onefourzerosixseven',
+        'ninenine'
     ], result: [
         123456789,
-        14067
+        14067,
+        99
     ]
 }
