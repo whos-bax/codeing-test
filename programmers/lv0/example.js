@@ -7,5 +7,5 @@
 // }
 //
 // for (let i = 0; i < example.len; i++) {
-//     console.log(solution(example.n[i]));
+//     console.log(solution(example.numbers[i]) === example.result[i]);
 // }
