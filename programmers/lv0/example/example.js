@@ -1,11 +1,11 @@
-// https://school.programmers.co.kr/learn/courses/30/lessons/120894
-// module.exports = example = {
-//     len: 2,
-//     numbers: [
-//         'onetwothreefourfivesixseveneightnine',
-//         'onefourzerosixseven'
-//     ], result: [
-//         123456789,
-//         14067
-//     ]
-// }
+// https://school.programmers.co.kr/learn/courses/30/lessons/120885
+module.exports = example = {
+    input: {
+        bin1: ["10", "1001"],
+        bin2: ["11", "1111"],
+    },
+    result: [
+        "101",
+        "11000"
+    ]
+}
