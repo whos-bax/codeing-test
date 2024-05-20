@@ -8,7 +8,7 @@ function solution({score}) {
         const [eng, math] = value;
         return (eng + math) / 2;
     });
-    
+
     let sortList = [...score].sort((a,b) => b - a);
 
     score.map(v => {
