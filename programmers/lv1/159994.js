@@ -15,7 +15,6 @@ function solution({cards1, cards2, goal}) {
         }
     }
     return answer;
-    return answer;
 }
 
 for (let i = 0; i < example.result.length; i++) {
